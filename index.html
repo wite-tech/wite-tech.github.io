@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Witenova Studio - Game Development, Porting and Publishing</title>
+  <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="shortcut icon" href="favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+  <link rel="manifest" href="site.webmanifest" />
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+    :root{--ink:#f6f7f9;--muted:#b7c0cf;--gold:#f3b300;--overlay:rgba(0,0,0,.42)}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;color:var(--ink);background:#000;font-family:'Montserrat',system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,sans-serif;line-height:1.6;min-height:100vh;overflow-x:hidden}
+
+    /* === Background slideshow === */
+    .bg{position:fixed;inset:0;z-index:-2;background:#000;}
+    .bg img{position:absolute;inset:0;object-fit:cover;width:100%;height:100%;opacity:0;transition:opacity 1.2s ease;filter:contrast(1.05) saturate(1.05) brightness(.9)}
+    .bg img.show{opacity:.85}
+    .veil{position:fixed;inset:0;z-index:-1;background:linear-gradient(180deg,var(--overlay),rgba(0,0,0,.55))}
+
+    .wrap{max-width:820px;margin:0 auto;padding:44px 20px}
+
+    /* header */
+    .logo{width:min(160px,48vw);display:block;margin:26px auto 10px;user-select:none;-webkit-user-drag:none;filter:drop-shadow(0 6px 30px rgba(0,0,0,.6))}
+    h1{margin:6px 0 0;font-size:clamp(24px,3.2vw,32px);text-align:center}
+    p.lead{margin:6px 0 26px;text-align:center;color:var(--muted)}
+
+    /* sections */
+    section{margin:22px 0;padding:0 6px;border-left:4px solid var(--gold)}
+    h2{margin:0 0 6px;font-size:1.05rem;letter-spacing:.2px}
+    p{margin:0;color:#dbe2ee}
+
+    /* actions */
+    .actions{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin:18px 0}
+    .btn{display:inline-flex;align-items:center;gap:8px;padding:10px 14px;border:1px solid rgba(255,255,255,.18);border-radius:12px;background:rgba(255,255,255,.06);backdrop-filter:blur(6px);font-weight:700;text-decoration:none;color:#fff;user-select:none;transition:box-shadow .15s ease,transform .1s ease}
+    .btn:hover{box-shadow:0 8px 28px rgba(0,0,0,.35)}
+    .btn:active{transform:translateY(1px)}
+
+    footer{margin:34px 0 18px;text-align:center;color:#94a0b1;font-size:.9rem}
+
+    /* reveal on scroll (subtle) */
+    .reveal{opacity:0;transform:translateY(10px);transition:opacity .5s ease,transform .5s ease}
+    .reveal.on{opacity:1;transform:none}
+
+    @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal{opacity:1;transform:none}.bg{display:none}.veil{display:none}}
+  </style>
+</head>
+<body>
+  <!-- Background slideshow: place bg1.jpg ... bg8.jpg next to index.html -->
+  <div class="bg" id="bg">
+    <img src="bg1.jpg" alt="background 1" class="show">
+    <img src="bg2.jpg" alt="background 2">
+    <img src="bg3.jpg" alt="background 3">
+    <img src="bg4.jpg" alt="background 4">
+    <img src="bg5.jpg" alt="background 5">
+    <img src="bg6.jpg" alt="background 6">
+    <img src="bg7.jpg" alt="background 7">
+    <img src="bg8.jpg" alt="background 8">
+  </div>
+  <div class="veil" aria-hidden="true"></div>
+
+  <main class="wrap">
+    <!-- Round logo file name: logo_round.png -->
+    <img class="logo" src="logo_round.png" alt="Witenova Studio logo">
+    <h1>Our new website is on its way</h1>
+    <p class="lead">Quick snapshot of who we are & how to reach us</p>
+
+    <section class="reveal">
+      <h2>About</h2>
+      <p><strong>Witenova Studio</strong> - independent game developer & publisher based in Estonia</p>
+    </section>
+
+    <section class="reveal">
+      <h2>Publishing</h2>
+      <p>We publish for <strong>PlayStation</strong>, <strong>Xbox</strong>, <strong>Nintendo Switch</strong>, and <strong>Steam</strong> - store setup, technical certification, localization, and marketing assets</p>
+    </section>
+
+    <section class="reveal">
+      <h2>Porting</h2>
+      <p><strong>Unity</strong> & <strong>Unreal</strong> porting to consoles and PC - profiling, SDK/feature integration, performance budgets and compliance</p>
+    </section>
+
+    <section class="reveal">
+      <h2>Development</h2>
+      <p>Prototypes → vertical slice → release — co‑development and post‑launch support</p>
+    </section>
+
+    <div class="actions reveal">
+      <a class="btn" href="mailto:support@witenovastudio.com" aria-label="Email support">✉️ support@witenovastudio.com</a>
+    </div>
+  </main>
+
+  <footer>© <span id="y"></span> Witenova Studio</footer>
+
+  <script>
+    // year
+    document.getElementById('y').textContent = new Date().getFullYear();
+
+    // reveal on scroll
+    (function(){
+      if (matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+      const els=[...document.querySelectorAll('.reveal')];
+      const io=new IntersectionObserver((entries)=>{
+        entries.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add('on'); io.unobserve(e.target);} });
+      },{threshold:.12});
+      els.forEach(el=>io.observe(el));
+    })();
+
+    // Background slideshow: randomize order and loop
+    (function(){
+      const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+      if(reduce) return;
+      const imgs = Array.from(document.querySelectorAll('#bg img'));
+      if(imgs.length < 2) return;
+
+      // Shuffle function
+      function shuffle(arr){ for(let i=arr.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [arr[i],arr[j]]=[arr[j],arr[i]]; } return arr; }
+
+      const order = shuffle(imgs.slice());
+      // Ensure only the first in order is visible initially
+      imgs.forEach(im=>im.classList.remove('show'));
+      order[0].classList.add('show');
+
+      let idx = 0;
+      const DURATION = 5000; // 5s per slide
+      function next(){
+        const current = order[idx];
+        idx = (idx + 1) % order.length;
+        const nxt = order[idx];
+        current.classList.remove('show');
+        nxt.classList.add('show');
+      }
+      // Preload (forces caching in some browsers)
+      order.forEach(im=>{ const a=new Image(); a.src=im.getAttribute('src'); });
+      setInterval(next, DURATION);
+    })();
+  </script>
+</body>
+</html>
