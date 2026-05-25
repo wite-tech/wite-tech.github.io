@@ -1,0 +1,302 @@
+[
+  {
+    "id": "1x1-street-football",
+    "title": "1x1 Street Football: mini soccer PvP",
+    "description": "Fast-paced arcade football built around chaotic one-on-one matches, exaggerated physics, and competitive multiplayer action.",
+    "status": "Coming Soon",
+    "featuredRank": 1,
+    "image": "assets/games/1x1-street-football.webp",
+    "platforms": {
+      "playstation": "https://store.playstation.com/en-us/concept/10018176",
+      "xbox": "coming-soon",
+      "nintendo": "coming-soon",
+      "steam": "coming-soon",
+      "epic": "coming-soon"
+    }
+  },
+  {
+    "id": "sex-project",
+    "title": "S.E.X. Project: Simulated Emotional Xenotech",
+    "description": "A narrative-driven sci-fi experience exploring artificial emotions, synthetic identities, and human-machine relationships.",
+    "status": "Available Now",
+    "featuredRank": null,
+    "image": "assets/games/sex-project.webp",
+    "platforms": {
+      "playstation": "https://store.playstation.com/en-us/concept/10016690",
+      "xbox": "coming-soon",
+      "nintendo": "",
+      "steam": "coming-soon",
+      "epic": "coming-soon"
+    }
+  },
+  {
+    "id": "comfy-corners",
+    "title": "Comfy Corners: Unpack and Decorate",
+    "description": "Decorate cozy spaces, unpack personal belongings, and create relaxing interiors in a calm and wholesome atmosphere.",
+    "status": "Available Now",
+    "featuredRank": 3,
+    "image": "assets/games/comfy-corners.webp",
+    "platforms": {
+      "playstation": "https://store.playstation.com/en-us/concept/10016560/",
+      "xbox": "",
+      "nintendo": "https://www.nintendo.com/us/store/products/comfy-corners-unpack-and-decorate-switch/",
+      "steam": "coming-soon",
+      "epic": "coming-soon"
+    }
+  },
+  {
+    "id": "frogging-up",
+    "title": "Frogging Up: Frog Climb Rage Game",
+    "description": "Climb unpredictable obstacle courses as an angry frog in a physics-based rage platformer built around precision and chaos.",
+    "status": "Available Now",
+    "featuredRank": null,
+    "image": "assets/games/frogging-up.webp",
+    "platforms": {
+      "playstation": "https://store.playstation.com/en-us/concept/10016815",
+      "nintendo": "https://www.nintendo.com/us/store/products/frogging-up-switch/",
+      "xbox": "coming-soon",
+      "steam": "coming-soon",
+      "epic": "coming-soon"
+    }
+  },
+  {
+    "id": "3am-anomaly-store",
+    "title": "3AM ANOMALY STORE : Night Shift Horror",
+    "description": "Survive increasingly disturbing night shifts where strange customers and impossible events turn a quiet store into a nightmare.",
+    "status": "Announced",
+    "featuredRank": null,
+    "image": "assets/games/3am-anomaly-store.webp",
+    "platforms": {
+      "playstation": "https://store.playstation.com/en-us/concept/10018481",
+      "xbox": "coming-soon",
+      "nintendo": "",
+      "steam": "coming-soon",
+      "epic": "coming-soon"
+    }
+  },
+  {
+    "id": "wednesday-13th",
+    "title": "Wednesday 13th",
+    "description": "A supernatural action experience blending cinematic combat, dark mysteries, and surreal encounters inside a collapsing reality.",
+    "status": "Coming Soon",
+    "featuredRank": null,
+    "image": "assets/games/wednesday-13th.webp",
+    "platforms": {
+      "playstation": "https://store.playstation.com/en-us/concept/10016658",
+      "xbox": "coming-soon",
+      "nintendo": "",
+      "steam": "coming-soon",
+      "epic": "coming-soon"
+    }
+  },
+  {
+    "id": "frankenstein",
+    "title": "Frankenstein: Awakening of Horror",
+    "description": "A gothic horror project inspired by forbidden science, abandoned places, and the fear of what should never have been awakened.",
+    "status": "Coming Soon",
+    "featuredRank": null,
+    "image": "assets/games/frankenstein.webp",
+    "platforms": {
+      "playstation": "https://store.playstation.com/en-us/concept/10017279/",
+      "xbox": "coming-soon",
+      "nintendo": "",
+      "steam": "coming-soon",
+      "epic": "coming-soon"
+    }
+  },
+  {
+    "id": "disco-brawl",
+    "title": "80's Disco Brawl",
+    "description": "A bright, energetic brawler built around arcade action, expressive characters, and chaotic fights with a dance-floor attitude.",
+    "status": "Coming Soon",
+    "featuredRank": 2,
+    "image": "assets/games/disco-brawl.webp",
+    "platforms": {
+      "playstation": "https://store.playstation.com/en-us/concept/10017726",
+      "xbox": "coming-soon",
+      "nintendo": "coming-soon",
+      "steam": "coming-soon",
+      "epic": "coming-soon"
+    }
+  },
+  {
+    "id": "agent-skunk",
+    "title": "Agent Skunk: Stink Ops",
+    "description": "A playful stealth-action concept starring an unlikely agent, strange missions, and messy tactical solutions.",
+    "status": "Coming Soon",
+    "featuredRank": null,
+    "image": "assets/games/agent-skunk.webp",
+    "platforms": {
+      "playstation": "https://store.playstation.com/en-us/concept/10017729",
+      "xbox": "coming-soon",
+      "nintendo": "coming-soon",
+      "steam": "coming-soon",
+      "epic": "coming-soon"
+    }
+  },
+  {
+    "id": "28-floors",
+    "title": "28 Floors: Outbreak",
+    "description": "A tense outbreak scenario where every floor brings new threats, limited choices, and pressure to keep moving upward.",
+    "status": "Announced",
+    "featuredRank": null,
+    "image": "assets/games/28-floors.webp",
+    "platforms": {
+      "playstation": "https://store.playstation.com/en-us/concept/10018945",
+      "xbox": "coming-soon",
+      "nintendo": "",
+      "steam": "coming-soon",
+      "epic": "coming-soon"
+    }
+  },
+  {
+    "id": "platform-unknown",
+    "title": "Platform: Unknown",
+    "description": "A psychological horror experience built around liminal spaces, isolation, and unsettling encounters inside a mysterious metro system.",
+    "status": "Announced",
+    "featuredRank": null,
+    "image": "assets/games/platform-unknown.webp",
+    "platforms": {
+      "playstation": "https://store.playstation.com/en-us/concept/10015523/",
+      "xbox": "",
+      "nintendo": "",
+      "steam": "",
+      "epic": ""
+    }
+  },
+  {
+    "id": "chibi-escape",
+    "title": "Chibi Escape",
+    "description": "A colorful escape adventure with playful challenges, light puzzles, and charming characters built for quick, accessible fun.",
+    "status": "Announced",
+    "featuredRank": null,
+    "image": "assets/games/chibi-escape.webp",
+    "platforms": {
+      "playstation": "https://store.playstation.com/en-us/concept/10011302",
+      "xbox": "",
+      "nintendo": "coming-soon",
+      "steam": "https://store.steampowered.com/app/2912090/Chibi_Escape/",
+      "epic": "coming-soon"
+    }
+  },
+  {
+    "id": "oh-ship",
+    "title": "Oh Ship! Rage Co-Op Adventure",
+    "description": "A chaotic co-op adventure about movement, timing, and teamwork under pressure, designed for players who enjoy shared disasters.",
+    "status": "Announced",
+    "featuredRank": null,
+    "image": "assets/games/oh-ship.webp",
+    "platforms": {
+      "playstation": "https://store.playstation.com/en-us/concept/10017558",
+      "xbox": "",
+      "nintendo": "",
+      "steam": "",
+      "epic": ""
+    }
+  },
+  {
+    "id": "astranged",
+    "title": "Astranged: Between Worlds",
+    "description": "A surreal adventure about crossing unstable worlds, uncovering hidden connections, and surviving the space between realities.",
+    "status": "Announced",
+    "featuredRank": null,
+    "image": "assets/games/astranged.webp",
+    "platforms": {
+      "playstation": "https://store.playstation.com/en-us/concept/10017936",
+      "xbox": "",
+      "nintendo": "",
+      "steam": "",
+      "epic": ""
+    }
+  },
+  {
+    "id": "a-day-on-the-train",
+    "title": "A Day On The Train",
+    "description": "A compact narrative experience set around a train journey where small moments, strange passengers, and hidden tension slowly unfold.",
+    "status": "Announced",
+    "featuredRank": null,
+    "image": "assets/games/a-day-on-the-train.webp",
+    "platforms": {
+      "playstation": "https://store.playstation.com/en-us/concept/10018396",
+      "xbox": "",
+      "nintendo": "",
+      "steam": "",
+      "epic": ""
+    }
+  },
+  {
+    "id": "grans-garage",
+    "title": "Gran’s Garage: Van Road Trip Adventure",
+    "description": "A road trip adventure about fixing up, moving forward, and discovering stories across the open road.",
+    "status": "Announced",
+    "featuredRank": null,
+    "image": "assets/games/grans-garage.webp",
+    "platforms": {
+      "playstation": "https://store.playstation.com/en-us/concept/10018427",
+      "xbox": "",
+      "nintendo": "",
+      "steam": "",
+      "epic": ""
+    }
+  },
+  {
+    "id": "advanced-cowboy",
+    "title": "Advanced Cowboy: Future Western",
+    "description": "A future-western concept combining frontier atmosphere, strange technology, and cinematic action in an unusual sci-fi setting.",
+    "status": "Announced",
+    "featuredRank": null,
+    "image": "assets/games/advanced-cowboy.webp",
+    "platforms": {
+      "playstation": "https://store.playstation.com/en-us/concept/10018584",
+      "xbox": "",
+      "nintendo": "",
+      "steam": "",
+      "epic": ""
+    }
+  },
+  {
+    "id": "action-toys",
+    "title": "Action Toys: Playroom Adventure",
+    "description": "A playful action adventure where toys, imagination, and room-scale environments turn everyday spaces into a battleground.",
+    "status": "Announced",
+    "featuredRank": null,
+    "image": "assets/games/action-toys.webp",
+    "platforms": {
+      "playstation": "https://store.playstation.com/en-us/concept/10018691",
+      "xbox": "",
+      "nintendo": "",
+      "steam": "",
+      "epic": ""
+    }
+  },
+  {
+    "id": "90s-dead-radio",
+    "title": "90`s Dead Radio: Survival Broadcast",
+    "description": "Tune into a survival broadcast where analog signals, eerie transmissions, and late-night danger define the experience.",
+    "status": "Announced",
+    "featuredRank": null,
+    "image": "assets/games/90s-dead-radio.webp",
+    "platforms": {
+      "playstation": "https://store.playstation.com/en-us/concept/10018865",
+      "xbox": "",
+      "nintendo": "",
+      "steam": "",
+      "epic": ""
+    }
+  },
+  {
+    "id": "alert-exposure",
+    "title": "ALERT: EXPOSURE",
+    "description": "A suspense-driven project built around exposure, surveillance, and the escalating fear of being discovered.",
+    "status": "Announced",
+    "featuredRank": null,
+    "image": "assets/games/alert-exposure.webp",
+    "platforms": {
+      "playstation": "https://store.playstation.com/en-us/concept/10019003/",
+      "xbox": "",
+      "nintendo": "",
+      "steam": "",
+      "epic": ""
+    }
+  }
+]
