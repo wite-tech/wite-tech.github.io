@@ -1304,7 +1304,7 @@
         if (!p) return '';
         const active = value && value !== 'coming-soon';
         const isLive = active && status === 'Available Now';
-        const label = isLive ? 'Get Now' : active ? 'Wishlist Now' : 'In Development';
+        const label = isLive ? 'Get Now' : active ? 'Wishlist Now' : 'Coming soon';
         const icon = `<img src="${p.icon}" alt="" onerror="this.style.display='none'">`;
         if (isLive) {
           return `
@@ -1333,7 +1333,7 @@
 
       function renderFeatured() {
         const featured = games.filter(g => Number.isFinite(g.featuredRank)).sort((a, b) => a.featuredRank - b.featuredRank).slice(0, 3);
-        document.getElementById('featuredGrid').innerHTML = featured.map((g, i) => `<a class="showcase-card" href="#games" style="${imageBg(g,i)}"><div><b>${g.title}</b><span>${g.status}</span></div></a>`).join('')
+        document.getElementById('featuredGrid').innerHTML = featured.map((g, i) => `<a class="showcase-card" href="#games" style="${imageBg(g,i)}"><div><b>${g.title}</b></div></a>`).join('')
       }
 
       function renderGames(filter = 'all') {

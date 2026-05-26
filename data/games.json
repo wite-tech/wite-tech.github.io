@@ -34,7 +34,7 @@
     "title": "Comfy Corners: Unpack and Decorate",
     "description": "Decorate cozy spaces, unpack personal belongings, and create relaxing interiors in a calm and wholesome atmosphere.",
     "status": "Available Now",
-    "featuredRank": 3,
+    "featuredRank": null,
     "image": "assets/games/comfy-corners.webp",
     "platforms": {
       "playstation": "https://store.playstation.com/en-us/concept/10016560/",
@@ -79,7 +79,7 @@
     "title": "Wednesday 13th",
     "description": "A supernatural action experience blending cinematic combat, dark mysteries, and surreal encounters inside a collapsing reality.",
     "status": "Coming Soon",
-    "featuredRank": null,
+    "featuredRank": 3,
     "image": "assets/games/wednesday-13th.webp",
     "platforms": {
       "playstation": "https://store.playstation.com/en-us/concept/10016658",
