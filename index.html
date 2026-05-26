@@ -406,28 +406,39 @@
         border: 1px solid var(--line);
         border-radius: 22px;
         padding: 18px;
+        min-height: 160px;
         transition: .24s ease
       }
 
       .metric:hover {
         transform: translateY(-5px);
         background: #fff;
-        box-shadow: var(--shadow)
+        box-shadow: var(--shadow);
       }
 
       .metric b {
         display: block;
-        font-size: 34px;
+        font-size: 50px;
         line-height: 1;
         letter-spacing: -.05em;
+        min-height: 55px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        text-align:center;
         margin-bottom: 8px
       }
 
-      .metric span {
-        color: var(--muted);
-        font-size: 14px
-      }
+      .metric span{
+        color:var(--muted);
+        font-size:14px;
+        text-align:center;
 
+        position:relative;
+        top:20px;
+
+        line-height:1.5;
+      }
       .hero-brand-card {
         background: rgba(255, 255, 255, .72);
         border: 1px solid rgba(0, 0, 0, .06);
@@ -827,15 +838,15 @@
 
       .status {
         position: absolute;
-        left: 12px;
-        top: 145px;
+        left: 4px;
+        top: 156px;
         z-index: 2;
         padding: 6px 6px;
         border-radius: 999px;
         font-size: 11px;
         font-weight: 900;
         letter-spacing: .01em;
-        background: rgba(255, 255, 255, .3);
+        background: rgba(255, 255, 255, .1);
         backdrop-filter: blur(10px);
         -webkit-backdrop-filter: blur(10px);
         box-shadow: 0 4px 14px rgba(0, 0, 0, .12);
@@ -859,6 +870,16 @@
 
       .game-body {
         padding: 22px 22px 24px
+      }
+
+      .game-body h3{
+        font-size:22px;
+        line-height:1.2;
+
+        min-height:calc(1.2em * 2);
+
+        display:flex;
+        align-items:flex-start;
       }
 
       .game h3 {
@@ -1145,9 +1166,12 @@
           <div class="seo-pills reveal d3"><span class="pill">Indie game publisher</span><span class="pill">Console publishing partner</span><span class="pill">PlayStation, Xbox, Switch, Steam, EGS</span><span class="pill">Porting coordination</span></div>
           <div class="hero-actions reveal d3"><a class="btn" href="#games">View Portfolio</a><a class="btn business-btn" href="mailto:business@witenovastudio.com">Pitch Your Game</a></div>
           <div class="metrics reveal d3">
-            <div class="metric"><b>10+</b><span>Released and announced titles</span></div>
-            <div class="metric"><b>20+</b><span>Projects across the publishing pipeline</span></div>
-            <div class="metric"><b>5</b><span>PC and console platform ecosystems</span></div>
+            <div class="metric"><b>15+</b><span>Released and announced titles</span></div>
+            <div class="metric"><b>25+</b><span>Projects in the publishing pipeline</span></div>
+            <div class="metric"><b>5</b><span>Publishing platforms</span></div>
+            <div class="metric"><b>100K+</b><span>Players reached</span></div>
+            <div class="metric"><b>500K+</b><span>Cross-platform wishlists</span></div>
+            <div class="metric"><b>Global</b><span>Store presence</span></div>
           </div>
         </div>
         <div class="hero-showcase reveal d2">
