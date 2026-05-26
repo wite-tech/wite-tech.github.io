@@ -98,6 +98,14 @@
         gap: 24px
       }
 
+      .nav-links a.active{
+        color:var(--ink);
+      }
+
+      .nav-links a.active:after{
+        width:100%;
+      }
+
       .brand {
         display: flex;
         align-items: center;
@@ -1396,6 +1404,33 @@
         renderGames()
       }
       init();
+
+      const navItems=[...document.querySelectorAll('.nav-links a[href^="#"]')];
+
+      function updateActiveNav(){
+        const scrollBottom=window.innerHeight+window.scrollY>=document.body.offsetHeight-80;
+
+        if(scrollBottom){
+          navItems.forEach(link=>link.classList.remove('active'));
+          document.querySelector('.nav-links a[href="#contact"]')?.classList.add('active');
+          return;
+        }
+
+        const y=window.scrollY+160;
+
+        navItems.forEach(link=>{
+          const section=document.querySelector(link.getAttribute('href'));
+          if(!section)return;
+
+          const top=section.offsetTop;
+          const bottom=top+section.offsetHeight;
+
+          link.classList.toggle('active',y>=top&&y<bottom);
+        });
+      }
+
+      window.addEventListener('scroll',updateActiveNav);
+      window.addEventListener('load',updateActiveNav);
     </script>
   </body>
 </html>
