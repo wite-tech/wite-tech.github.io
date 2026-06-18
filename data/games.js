@@ -38,8 +38,8 @@ window.WITENOVA_GAMES = [
     "image": "assets/games/comfy-corners.webp",
     "platforms": {
       "playstation": "https://store.playstation.com/en-us/concept/10016560/",
-      "xbox": "",
       "nintendo": "https://www.nintendo.com/us/store/products/comfy-corners-unpack-and-decorate-switch/",
+      "xbox": "coming-soon",
       "steam": "coming-soon",
       "epic": "coming-soon"
     }
