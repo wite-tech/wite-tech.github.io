@@ -23,9 +23,9 @@ window.WITENOVA_GAMES = [
     "image": "assets/games/sex-project.webp",
     "platforms": {
       "playstation": "https://store.playstation.com/en-us/concept/10016690",
+      "steam": "https://store.steampowered.com/app/2709170/SEX_Project_Simulated_Emotional_Xenotech/",
       "xbox": "coming-soon",
       "nintendo": "",
-      "steam": "coming-soon",
       "epic": "coming-soon"
     }
   },
