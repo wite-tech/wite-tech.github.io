@@ -53,8 +53,8 @@
     "image": "assets/games/frogging-up.webp",
     "platforms": {
       "playstation": "https://store.playstation.com/en-us/concept/10016815",
+      "xbox": "https://www.xbox.com/en-US/games/store/frogging-up-frog-climb-rage-game/9NTQMH7B7SM2",
       "nintendo": "https://www.nintendo.com/us/store/products/frogging-up-switch/",
-      "xbox": "coming-soon",
       "steam": "coming-soon",
       "epic": "coming-soon"
     }
@@ -150,21 +150,6 @@
     }
   },
   {
-    "id": "platform-unknown",
-    "title": "Platform: Unknown",
-    "description": "A psychological horror experience built around liminal spaces, isolation, and unsettling encounters inside a mysterious metro system.",
-    "status": "Announced",
-    "featuredRank": null,
-    "image": "assets/games/platform-unknown.webp",
-    "platforms": {
-      "playstation": "https://store.playstation.com/en-us/concept/10015523/",
-      "xbox": "",
-      "nintendo": "",
-      "steam": "",
-      "epic": ""
-    }
-  },
-  {
     "id": "chibi-escape",
     "title": "Chibi Escape",
     "description": "A colorful escape adventure with playful challenges, light puzzles, and charming characters built for quick, accessible fun.",
@@ -177,21 +162,6 @@
       "nintendo": "coming-soon",
       "steam": "https://store.steampowered.com/app/2912090/Chibi_Escape/",
       "epic": "coming-soon"
-    }
-  },
-  {
-    "id": "oh-ship",
-    "title": "Oh Ship! Rage Co-Op Adventure",
-    "description": "A chaotic co-op adventure about movement, timing, and teamwork under pressure, designed for players who enjoy shared disasters.",
-    "status": "Announced",
-    "featuredRank": null,
-    "image": "assets/games/oh-ship.webp",
-    "platforms": {
-      "playstation": "https://store.playstation.com/en-us/concept/10017558",
-      "xbox": "",
-      "nintendo": "",
-      "steam": "",
-      "epic": ""
     }
   },
   {
@@ -218,36 +188,6 @@
     "image": "assets/games/a-day-on-the-train.webp",
     "platforms": {
       "playstation": "https://store.playstation.com/en-us/concept/10018396",
-      "xbox": "",
-      "nintendo": "",
-      "steam": "",
-      "epic": ""
-    }
-  },
-  {
-    "id": "grans-garage",
-    "title": "Gran’s Garage: Van Road Trip Adventure",
-    "description": "A road trip adventure about fixing up, moving forward, and discovering stories across the open road.",
-    "status": "Announced",
-    "featuredRank": null,
-    "image": "assets/games/grans-garage.webp",
-    "platforms": {
-      "playstation": "https://store.playstation.com/en-us/concept/10018427",
-      "xbox": "",
-      "nintendo": "",
-      "steam": "",
-      "epic": ""
-    }
-  },
-  {
-    "id": "advanced-cowboy",
-    "title": "Advanced Cowboy: Future Western",
-    "description": "A future-western concept combining frontier atmosphere, strange technology, and cinematic action in an unusual sci-fi setting.",
-    "status": "Announced",
-    "featuredRank": null,
-    "image": "assets/games/advanced-cowboy.webp",
-    "platforms": {
-      "playstation": "https://store.playstation.com/en-us/concept/10018584",
       "xbox": "",
       "nintendo": "",
       "steam": "",
