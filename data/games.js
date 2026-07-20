@@ -8,10 +8,10 @@ window.WITENOVA_GAMES = [
     "image": "assets/games/1x1-street-football.webp",
     "platforms": {
       "playstation": "https://store.playstation.com/en-us/concept/10018176",
+      "steam": "https://store.steampowered.com/app/4814920/1x1_Street_Football_mini_soccer_PvP",
+      "epic": "https://store.epicgames.com/p/1x1-street-football-e683d6",
       "xbox": "coming-soon",
-      "nintendo": "coming-soon",
-      "steam": "coming-soon",
-      "epic": "coming-soon"
+      "nintendo": "coming-soon"
     }
   },
   {
@@ -39,7 +39,7 @@ window.WITENOVA_GAMES = [
     "platforms": {
       "playstation": "https://store.playstation.com/en-us/concept/10016560/",
       "nintendo": "https://www.nintendo.com/us/store/products/comfy-corners-unpack-and-decorate-switch/",
-      "xbox": "coming-soon",
+      "xbox": "https://www.xbox.com/en-us/games/store/comfy-corners-unpack-and-decorate/9P8TJ3HQTCZ9",
       "steam": "coming-soon",
       "epic": "coming-soon"
     }
@@ -237,6 +237,19 @@ window.WITENOVA_GAMES = [
       "nintendo": "",
       "steam": "",
       "epic": ""
+    }
+  },
+  {
+    "id": "neanderthallica",
+    "title": "Neanderthallica",
+    "description": "Puzzle-metroidvania game set in a prehistoric world with a twist of sci-fi.",
+    "status": "Announced",
+    "featuredRank": null,
+    "image": "assets/games/neanderthallica.webp",
+    "platforms": {
+      "playstation": "https://store.playstation.com/en-us/concept/10020362/",
+      "xbox": "coming-soon",
+      "nintendo": "coming-soon"
     }
   }
 ]
