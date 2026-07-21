@@ -734,6 +734,103 @@
         line-height: 1.55
       }
 
+      .partner-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 14px
+      }
+
+      .partner-card {
+        background: var(--paper);
+        border: 1px solid var(--line);
+        border-radius: 28px;
+        padding: 30px;
+        min-height: 250px;
+        position: relative;
+        overflow: hidden;
+        transition: .24s ease
+      }
+
+      .partner-card:before {
+        content: "";
+        position: absolute;
+        width: 150px;
+        height: 150px;
+        right: -70px;
+        top: -70px;
+        border-radius: 50%;
+        background: radial-gradient(circle, rgba(212, 166, 58, .18), transparent 68%);
+        pointer-events: none
+      }
+
+      .partner-card:hover {
+        transform: translateY(-6px);
+        border-color: var(--gold);
+        box-shadow: var(--shadow)
+      }
+
+      .partner-card .num,
+      .process-card .num {
+        color: var(--gold-dark);
+        font-size: 13px;
+        font-weight: 950;
+        letter-spacing: .12em;
+        text-transform: uppercase;
+        margin-bottom: 42px
+      }
+
+      .process-card .num {
+        font-size: 16px;
+        letter-spacing: .08em
+      }
+
+      .partner-card h3,
+      .process-card h3 {
+        margin: 0 0 12px;
+        font-size: 23px;
+        letter-spacing: -.025em
+      }
+
+      .partner-card p,
+      .process-card p {
+        margin: 0;
+        color: var(--muted);
+        line-height: 1.55
+      }
+
+      .process-wrap {
+        background: var(--paper2);
+        border: 1px solid var(--line);
+        border-radius: 38px;
+        padding: clamp(30px, 4vw, 48px)
+      }
+
+      .process-wrap .section-head {
+        margin-bottom: 28px
+      }
+
+      .process-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 14px
+      }
+
+      .process-card {
+        background: rgba(255, 255, 255, .72);
+        border: 1px solid rgba(216, 211, 200, .95);
+        border-radius: 26px;
+        padding: 26px;
+        min-height: 230px;
+        transition: .24s ease
+      }
+
+      .process-card:hover {
+        transform: translateY(-5px);
+        background: #fff;
+        border-color: var(--gold);
+        box-shadow: 0 20px 54px rgba(17, 17, 17, .08)
+      }
+
       @keyframes aboutBgFlow {
         0% {
           background-position: 0% 50%
@@ -1131,6 +1228,8 @@
         }
 
         .services,
+        .partner-grid,
+        .process-grid,
         .games {
           grid-template-columns: 1fr
         }
@@ -1162,7 +1261,7 @@
   <body>
     <header>
       <div class="page nav"><a class="brand" href="#top"><img src="logo_transparent.png" alt="Witenova Studio logo">Witenova Studio</a>
-        <nav class="nav-links"><a href="#about">About</a><a href="#publishing">Publishing</a><a href="#games">Games</a><a href="#contact">Contact</a></nav><a class="btn business-btn" href="mailto:business@witenovastudio.com">Business</a>
+        <nav class="nav-links"><a href="#about">About</a><a href="#publishing">Publishing</a><a href="#why-witenova">Why Witenova</a><a href="#process">How We Work</a><a href="#games">Games</a><a href="#contact">Contact</a></nav><a class="btn business-btn" href="mailto:business@witenovastudio.com">Business</a>
       </div>
     </header>
     <main id="top">
@@ -1234,6 +1333,61 @@
               <h3>Marketing Support</h3>
               <p>Store copy, trailers, capsules, visual assets, community presence, and launch communication.</p>
             </div>
+          </div>
+        </div>
+      </section>
+      <section id="why-witenova">
+        <div class="page">
+          <div class="section-head">
+            <h2>Why partner with Witenova</h2>
+            <p>We help selected games reach more platforms and more players without adding unnecessary complexity for the development team.</p>
+          </div>
+          <div class="partner-grid">
+            <article class="partner-card">
+              <div class="num">Release investment</div>
+              <h3>We invest in the release</h3>
+              <p>For selected signed projects, we can fund and coordinate porting, certification, console release, and marketing.</p>
+            </article>
+            <article class="partner-card">
+              <div class="num">Market validation</div>
+              <h3>We test and grow demand</h3>
+              <p>We use store pages, organic wishlist growth, social media, creators, and paid campaigns to understand the audience and build momentum.</p>
+            </article>
+            <article class="partner-card">
+              <div class="num">Clear partnership</div>
+              <h3>Clear terms from the start</h3>
+              <p>Simple, transparent agreements and a developer-friendly revenue share, so both sides understand how the partnership works.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section id="process">
+        <div class="page process-wrap">
+          <div class="section-head">
+            <h2>How we work</h2>
+            <p>A clear process from the first conversation to launch.</p>
+          </div>
+          <div class="process-grid">
+            <article class="process-card">
+              <div class="num">01</div>
+              <h3>Project Review</h3>
+              <p>We carefully review your game to understand its current stage, gameplay, technical readiness, and publishing potential.</p>
+            </article>
+            <article class="process-card">
+              <div class="num">02</div>
+              <h3>Publishing Plan</h3>
+              <p>We meet with your team, agree on the publishing terms, and define the strategy, roadmap, and next steps.</p>
+            </article>
+            <article class="process-card">
+              <div class="num">03</div>
+              <h3>Market Validation</h3>
+              <p>With the publishing plan in place, we validate player interest through marketing activities, wishlist growth, press outreach, and community engagement.</p>
+            </article>
+            <article class="process-card">
+              <div class="num">04</div>
+              <h3>Console Porting &amp; Publishing</h3>
+              <p>We prepare your game for console release and support every stage of the process - from porting and platform adaptation to certification and launch.</p>
+            </article>
           </div>
         </div>
       </section>
@@ -1331,27 +1485,32 @@
         document.getElementById('filters').innerHTML = items.map((it, i) => `<button class="filter ${i===0?'active':''}" data-filter="${it.key}">${it.label}</button>`).join('')
       }
 
-      function platformBadge(key, value, status) {
+      function platformBadge(key, value, status, actionOverride) {
         const p = getPlatform(key);
         if (!p) return '';
+
         const active = value && value !== 'coming-soon';
-        const isLive = active && status === 'Available Now';
-        const label = isLive ? 'Get Now' : active ? 'Wishlist Now' : 'Coming soon';
+        const defaultAction = status === 'Available Now' ? 'get' : 'wishlist';
+        const action = active ? (actionOverride || defaultAction) : 'coming-soon';
+        const label = action === 'get' ? 'Get Now' : action === 'wishlist' ? 'Wishlist Now' : 'Coming soon';
         const icon = `<img src="${p.icon}" alt="" onerror="this.style.display='none'">`;
-        if (isLive) {
+
+        if (action === 'get') {
           return `
             <a class="badge live" href="${value}" target="_blank" rel="noopener">
                 ${icon}${label}
             </a>
         `;
         }
-        if (active) {
+
+        if (action === 'wishlist') {
           return `
             <a class="badge active" href="${value}" target="_blank" rel="noopener">
                 ${icon}${label}
             </a>
         `;
         }
+
         return `
         <span class="badge">
             ${icon}${label}
@@ -1371,7 +1530,10 @@
       function renderGames(filter = 'all') {
         const visible = games.filter(g => filter === 'all' || Boolean(g.platforms && g.platforms[filter]));
         document.getElementById('gamesGrid').innerHTML = visible.map((g, i) => {
-          const badges = Object.entries(g.platforms || {}).filter(([k, v]) => v).map(([k, v]) => platformBadge(k, v, g.status)).join('');
+          const badges = Object.entries(g.platforms || {})
+            .filter(([k, v]) => v)
+            .map(([k, v]) => platformBadge(k, v, g.status, g.platformActions?.[k]))
+            .join('');
           const link = primaryLink(g);
           return `<article class="game"><div class="thumb" style="${imageBg(g,i)}"><span class="status ${g.status === 'Available Now'? 'available': g.status === 'Announced'? 'announced': 'coming'}">${g.status||'Announced'}</span></div><div class="game-body"><h3>${g.title}</h3><p class="game-description">${g.description||''}</p><div class="badges">${badges}</div></div></article>`
         }).join('')
@@ -1408,7 +1570,7 @@
       const navItems=[...document.querySelectorAll('.nav-links a[href^="#"]')];
 
       function updateActiveNav(){
-        const scrollBottom=window.innerHeight+window.scrollY>=document.body.offsetHeight-80;
+        const scrollBottom=window.innerHeight+window.scrollY>=document.documentElement.scrollHeight-80;
 
         if(scrollBottom){
           navItems.forEach(link=>link.classList.remove('active'));
@@ -1417,16 +1579,21 @@
         }
 
         const y=window.scrollY+160;
+        let activeLink=null;
 
-        navItems.forEach(link=>{
+        navItems.forEach((link,index)=>{
           const section=document.querySelector(link.getAttribute('href'));
           if(!section)return;
 
+          const nextLink=navItems[index+1];
+          const nextSection=nextLink?document.querySelector(nextLink.getAttribute('href')):null;
           const top=section.offsetTop;
-          const bottom=top+section.offsetHeight;
+          const bottom=nextSection?nextSection.offsetTop:document.documentElement.scrollHeight;
 
-          link.classList.toggle('active',y>=top&&y<bottom);
+          if(y>=top&&y<bottom)activeLink=link;
         });
+
+        navItems.forEach(link=>link.classList.toggle('active',link===activeLink));
       }
 
       window.addEventListener('scroll',updateActiveNav);

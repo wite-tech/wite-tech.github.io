@@ -27,6 +27,9 @@ window.WITENOVA_GAMES = [
       "xbox": "coming-soon",
       "nintendo": "",
       "epic": "coming-soon"
+    },
+    "platformActions": {
+      "steam": "wishlist"
     }
   },
   {
@@ -42,6 +45,9 @@ window.WITENOVA_GAMES = [
       "xbox": "https://www.xbox.com/en-us/games/store/comfy-corners-unpack-and-decorate/9P8TJ3HQTCZ9",
       "steam": "coming-soon",
       "epic": "coming-soon"
+    },
+    "platformActions": {
+      "xbox": "wishlist"
     }
   },
   {
