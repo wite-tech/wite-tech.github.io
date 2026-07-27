@@ -10,7 +10,7 @@ window.WITENOVA_GAMES = [
       "playstation": "https://store.playstation.com/en-us/concept/10018176",
       "steam": "https://store.steampowered.com/app/4814920/1x1_Street_Football_mini_soccer_PvP",
       "epic": "https://store.epicgames.com/p/1x1-street-football-e683d6",
-      "xbox": "coming-soon",
+      "xbox": "https://www.xbox.com/en-US/games/store/1x1-street-football-mini-soccer-pvp/9nnrh5g6nqt7",
       "nintendo": "coming-soon"
     }
   },
