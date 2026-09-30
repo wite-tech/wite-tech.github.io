@@ -3,7 +3,7 @@
     "id": "1x1-street-football",
     "title": "1x1 Street Football: mini soccer PvP",
     "description": "Fast-paced arcade football built around chaotic one-on-one matches, exaggerated physics, and competitive multiplayer action.",
-    "status": "Coming Soon",
+    "status": "Available Now",
     "featuredRank": 1,
     "image": "assets/games/1x1-street-football.webp",
     "platforms": {
@@ -12,6 +12,11 @@
       "epic": "https://store.epicgames.com/p/1x1-street-football-mini-soccer-pvp-e683d6",
       "xbox": "https://www.xbox.com/en-US/games/store/1x1-street-football-mini-soccer-pvp/9nnrh5g6nqt7",
       "nintendo": "coming-soon"
+    },
+    "platformActions": {
+      "steam": "wishlist",
+      "epic": "wishlist",
+      "xbox": "wishlist"
     }
   },
   {
@@ -47,7 +52,6 @@
       "epic": "coming-soon"
     },
     "platformActions": {
-      "xbox": "wishlist"
     }
   },
   {
@@ -61,8 +65,11 @@
       "playstation": "https://store.playstation.com/en-us/concept/10016815",
       "xbox": "https://www.xbox.com/en-US/games/store/frogging-up-frog-climb-rage-game/9NTQMH7B7SM2",
       "nintendo": "https://www.nintendo.com/us/store/products/frogging-up-switch/",
-      "steam": "coming-soon",
+      "steam": "https://store.steampowered.com/app/5219570/Frogging_Up_Frog_Climb_Rage_Game/",
       "epic": "coming-soon"
+    },
+    "platformActions": {
+      "steam": "wishlist"
     }
   },
   {
@@ -85,7 +92,7 @@
     "title": "Wednesday 13th",
     "description": "A supernatural action experience blending cinematic combat, dark mysteries, and surreal encounters inside a collapsing reality.",
     "status": "Coming Soon",
-    "featuredRank": 3,
+    "featuredRank": null,
     "image": "assets/games/wednesday-13th.webp",
     "platforms": {
       "playstation": "https://store.playstation.com/en-us/concept/10016658",
@@ -100,7 +107,7 @@
     "title": "Frankenstein: Awakening of Horror",
     "description": "A gothic horror project inspired by forbidden science, abandoned places, and the fear of what should never have been awakened.",
     "status": "Coming Soon",
-    "featuredRank": null,
+    "featuredRank": 2,
     "image": "assets/games/frankenstein.webp",
     "platforms": {
       "playstation": "https://store.playstation.com/en-us/concept/10017279/",
@@ -115,7 +122,7 @@
     "title": "80's Disco Brawl",
     "description": "A bright, energetic brawler built around arcade action, expressive characters, and chaotic fights with a dance-floor attitude.",
     "status": "Coming Soon",
-    "featuredRank": 2,
+    "featuredRank": null,
     "image": "assets/games/disco-brawl.webp",
     "platforms": {
       "playstation": "https://store.playstation.com/en-us/concept/10017726",
@@ -130,7 +137,7 @@
     "title": "Agent Skunk: Stink Ops",
     "description": "A playful stealth-action concept starring an unlikely agent, strange missions, and messy tactical solutions.",
     "status": "Coming Soon",
-    "featuredRank": null,
+    "featuredRank": 3,
     "image": "assets/games/agent-skunk.webp",
     "platforms": {
       "playstation": "https://store.playstation.com/en-us/concept/10017729",
