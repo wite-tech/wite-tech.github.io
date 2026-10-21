@@ -8,15 +8,29 @@ window.WITENOVA_GAMES = [
     "image": "assets/games/1x1-street-football.webp",
     "platforms": {
       "playstation": "https://store.playstation.com/en-us/concept/10018176",
+      "xbox": "https://www.xbox.com/en-US/games/store/1x1-street-football-mini-soccer-pvp/9nnrh5g6nqt7",
       "steam": "https://store.steampowered.com/app/4814920/1x1_Street_Football_mini_soccer_PvP",
       "epic": "https://store.epicgames.com/p/1x1-street-football-mini-soccer-pvp-e683d6",
-      "xbox": "https://www.xbox.com/en-US/games/store/1x1-street-football-mini-soccer-pvp/9nnrh5g6nqt7",
       "nintendo": "coming-soon"
     },
     "platformActions": {
       "steam": "wishlist",
-      "epic": "wishlist",
-      "xbox": "wishlist"
+      "epic": "wishlist"
+    }
+  },
+  {
+    "id": "frankenstein",
+    "title": "Frankenstein: Awakening of Horror",
+    "description": "A gothic horror project inspired by forbidden science, abandoned places, and the fear of what should never have been awakened.",
+    "status": "Available Now",
+    "featuredRank": 2,
+    "image": "assets/games/frankenstein.webp",
+    "platforms": {
+      "playstation": "https://store.playstation.com/en-us/concept/10017279/",
+      "xbox": "coming-soon",
+      "nintendo": "",
+      "steam": "coming-soon",
+      "epic": "coming-soon"
     }
   },
   {
@@ -73,6 +87,21 @@ window.WITENOVA_GAMES = [
     }
   },
   {
+    "id": "agent-skunk",
+    "title": "Agent Skunk: Stink Ops",
+    "description": "A playful stealth-action concept starring an unlikely agent, strange missions, and messy tactical solutions.",
+    "status": "Coming Soon",
+    "featuredRank": 3,
+    "image": "assets/games/agent-skunk.webp",
+    "platforms": {
+      "playstation": "https://store.playstation.com/en-us/concept/10017729",
+      "xbox": "coming-soon",
+      "nintendo": "coming-soon",
+      "steam": "coming-soon",
+      "epic": "coming-soon"
+    }
+  },
+  {
     "id": "3am-anomaly-store",
     "title": "3AM ANOMALY STORE : Night Shift Horror",
     "description": "Survive increasingly disturbing night shifts where strange customers and impossible events turn a quiet store into a nightmare.",
@@ -103,21 +132,6 @@ window.WITENOVA_GAMES = [
     }
   },
   {
-    "id": "frankenstein",
-    "title": "Frankenstein: Awakening of Horror",
-    "description": "A gothic horror project inspired by forbidden science, abandoned places, and the fear of what should never have been awakened.",
-    "status": "Coming Soon",
-    "featuredRank": 2,
-    "image": "assets/games/frankenstein.webp",
-    "platforms": {
-      "playstation": "https://store.playstation.com/en-us/concept/10017279/",
-      "xbox": "coming-soon",
-      "nintendo": "",
-      "steam": "coming-soon",
-      "epic": "coming-soon"
-    }
-  },
-  {
     "id": "disco-brawl",
     "title": "80's Disco Brawl",
     "description": "A bright, energetic brawler built around arcade action, expressive characters, and chaotic fights with a dance-floor attitude.",
@@ -126,21 +140,6 @@ window.WITENOVA_GAMES = [
     "image": "assets/games/disco-brawl.webp",
     "platforms": {
       "playstation": "https://store.playstation.com/en-us/concept/10017726",
-      "xbox": "coming-soon",
-      "nintendo": "coming-soon",
-      "steam": "coming-soon",
-      "epic": "coming-soon"
-    }
-  },
-  {
-    "id": "agent-skunk",
-    "title": "Agent Skunk: Stink Ops",
-    "description": "A playful stealth-action concept starring an unlikely agent, strange missions, and messy tactical solutions.",
-    "status": "Coming Soon",
-    "featuredRank": 3,
-    "image": "assets/games/agent-skunk.webp",
-    "platforms": {
-      "playstation": "https://store.playstation.com/en-us/concept/10017729",
       "xbox": "coming-soon",
       "nintendo": "coming-soon",
       "steam": "coming-soon",
