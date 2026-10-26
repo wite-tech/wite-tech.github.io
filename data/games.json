@@ -9,9 +9,9 @@
     "platforms": {
       "playstation": "https://store.playstation.com/en-us/concept/10018176",
       "xbox": "https://www.xbox.com/en-US/games/store/1x1-street-football-mini-soccer-pvp/9nnrh5g6nqt7",
+      "nintendo": "https://www.nintendo.com/us/store/products/1x1-street-football-mini-soccer-pvp-switch/",
       "steam": "https://store.steampowered.com/app/4814920/1x1_Street_Football_mini_soccer_PvP",
-      "epic": "https://store.epicgames.com/p/1x1-street-football-mini-soccer-pvp-e683d6",
-      "nintendo": "coming-soon"
+      "epic": "https://store.epicgames.com/p/1x1-street-football-mini-soccer-pvp-e683d6"
     },
     "platformActions": {
       "steam": "wishlist",
