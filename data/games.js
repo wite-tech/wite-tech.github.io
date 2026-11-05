@@ -48,7 +48,6 @@ window.WITENOVA_GAMES = [
       "epic": "coming-soon"
     },
     "platformActions": {
-      "steam": "wishlist"
     }
   },
   {
