@@ -238,7 +238,7 @@ window.WITENOVA_GAMES = [
   {
     "id": "alert-exposure",
     "title": "ALERT: EXPOSURE",
-    "description": "A suspense-driven project built around exposure, surveillance, and the escalating fear of being discovered.",
+    "description": "A suspense-driven project built around exposure, surveillance, and the escalating fear of being discovered. ",
     "status": "Announced",
     "featuredRank": null,
     "image": "assets/games/alert-exposure.webp",
