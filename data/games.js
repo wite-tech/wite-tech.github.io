@@ -27,10 +27,12 @@ window.WITENOVA_GAMES = [
     "image": "assets/games/frankenstein.webp",
     "platforms": {
       "playstation": "https://store.playstation.com/en-us/concept/10017279/",
+      "steam": "https://store.steampowered.com/app/5516360/Frankenstein_Awakening_of_Horror/",
       "xbox": "coming-soon",
-      "nintendo": "",
-      "steam": "coming-soon",
       "epic": "coming-soon"
+    },
+    "platformActions": {
+      "steam": "wishlist"
     }
   },
   {
